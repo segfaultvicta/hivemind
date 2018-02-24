@@ -1,0 +1,12 @@
+<div class="jumbotron">
+  
+  <p class="lead text-justify">
+  Hivemind is a tool for building consensus within a group. It's ideal for situations where you don't have the ability to look at everyone in the group and see hand gestures, or for when the members of a group prefer some level of anonymity while being able to explicitly track the overall emotional temperature of a room.
+  </p>
+
+  <h1 class="display-4">Try it!</h1>
+  <%= form_for @conn, hive_path(@conn, :handle), fn f -> %>
+    <%= text_input f, :target %>
+    <%= submit "Go to Hive!" %>
+  <% end %>
+</div>

@@ -1,0 +1,33 @@
+/* This file is for your main application css. */
+
+body {
+	font-family: 'Lato', sans-serif;
+	padding-top: 64px;
+}
+
+.sentiment-select .sentiment-icon {
+	margin: 20px;
+}
+
+.sentiment-selected {
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow:
+        0 0 5px 2px #fff,
+        0 0 10px 5px #0f6,
+        0 0 20px 10px #000;
+}
+
+.temperature-sentiments {
+	margin-top: 20px;
+	background-color: #ccc;
+}
+
+.explanatory {
+	list-style-type: none;
+}
+
+.explanatory svg {
+	margin-right: 20px;
+	margin-top: 10px;
+}
